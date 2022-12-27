@@ -1,5 +1,2 @@
-class CarMercedes:Car {
-    override fun Brand(brandName: String) {
-        super.Brand(brandName)
-    }
+class CarMercedes(override val brandName: String) :Car {
 }

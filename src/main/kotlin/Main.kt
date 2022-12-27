@@ -1,11 +1,11 @@
-fun main(args: Array<String>) {
-    val chef = Chef()
-    chef.Workerhours(7)
-    val waiter=Waiter()
-    waiter.Workerhours(9)
+fun main() {
+    val chef = Chef(7)
+    chef.Workerhours()
+    val waiter=Waiter(9)
+    waiter.Workerhours()
 
-    val bmw = CarBmw()
-    bmw.Brand("bmw")
-    val mercedes = CarMercedes()
-    mercedes.Brand("mercedes")
+    val bmw = CarBmw("bmw")
+    bmw.Brand()
+    val mercedes = CarMercedes("mercedes")
+    mercedes.Brand()
 }

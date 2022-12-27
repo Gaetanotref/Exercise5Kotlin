@@ -1,5 +1,2 @@
-class Waiter: Worker() {
-    override fun Workerhours(hour: Int) {
-        super.Workerhours(hour)
-    }
+class Waiter(override val hour: Int): Worker(hour) {
 }

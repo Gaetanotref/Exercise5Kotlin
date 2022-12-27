@@ -1,5 +1,6 @@
 interface Car {
-    fun Brand(brandName:String){
+    val brandName:String
+    fun Brand() {
         println("The car is a $brandName")
     }
 }

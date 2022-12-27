@@ -1,5 +1,5 @@
-open class Worker {
-    open fun Workerhours(hour:Int){
+open class Worker(open val hour:Int) {
+    open fun Workerhours(){
         println("The person is working ${hour}")
     }
 }
