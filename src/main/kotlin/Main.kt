@@ -1,11 +1,11 @@
 fun main() {
     val chef = Chef(7)
-    chef.Workerhours()
+    chef.workerhours()
     val waiter=Waiter(9)
-    waiter.Workerhours()
+    waiter.workerhours()
 
     val bmw = CarBmw("bmw")
-    bmw.Brand()
+    bmw.brand()
     val mercedes = CarMercedes("mercedes")
-    mercedes.Brand()
+    mercedes.brand()
 }
